@@ -1,0 +1,141 @@
+body{
+    font-family : 'Berlin Sans FB', 'Trebuchet MS', Arial;
+    border:1px solid #424580;
+}
+.size40{
+    font-size:40px;
+}
+.size20{
+    font-size:20px;
+}
+.colorBlueDark{
+    color:#283645;
+}
+.colorBlueLight{
+    color:#1490D7;
+}
+.colorOrange{
+    color:#FF8000;
+}
+.colorWhite{
+    color:white;
+}
+.text-center{
+    text-align: center;
+}
+.bg-colorBlue3{
+    background-color:#424580;
+}
+.bg-colorBlueLight{
+    background-color:#1490D7;
+}
+h2{
+    padding:0px;
+    margin:30px 0px;
+}
+.borderBottomDark{
+    border-bottom:1px solid #283645;
+}
+.gauche{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+
+
+/*******
+** Header
+*****/
+.header{
+    display:flex;
+    align-items: center;
+    text-align:center;
+}
+
+.header .photoPerso, .header .infoPerso{
+    width:33.3%;
+}
+.header .photoPerso img{
+    height:200px;
+}
+.header .posteRecherche{
+    flex:auto;
+}
+/*******
+** FIN Header
+*****/
+
+/********
+** Footer
+*********/
+.footer{
+    padding:10px;
+    margin-top : 50px;
+}
+/********
+** Fin Footer
+*********/
+
+
+/********
+** Corps
+*********/
+.corps{
+    padding:0% 2%;
+}
+.domaineCompetence table{
+    width:100%;
+}
+.domaineCompetence table td, .domaineCompetence table th{
+    padding:10px 20px;
+    border: 1px solid #283645;
+    width:33%;
+}
+
+.col1{
+    width:20%;
+}
+.col2{
+    width:80%;
+}
+label{
+    display:block;
+    float:left;
+    width:20%;
+    text-align:right;
+    padding-right:20px;
+}
+.buttonContact{
+    margin-left:20%;
+    width:200px;
+}
+/********
+** Fin Corps
+*********/
+
+@media (max-width: 768px){
+    .size40{
+        font-size:22px;
+    }
+    .size20{
+        font-size:14px;
+    }
+    .header .photoPerso img{
+        height:100px;
+    }
+    .col1{
+        width:30%;
+    }
+    .col2{
+        width:70%;
+    }
+}
+@media (min-width: 769px) and (max-width:1300px){
+    .col1{
+        width:35%;
+    }
+    .col2{
+        width:65%;
+    }
+}
